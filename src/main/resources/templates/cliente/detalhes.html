@@ -74,13 +74,13 @@
                 <!-- The timeline -->
                 <div class="timeline">
                   <!-- timeline item -->
-                  <!--
+  
                   <div th:each="projeto : ${cliente.projetos}">
                     <i class="fas fa-project-diagram bg-primary"></i>
 
                     <div class="timeline-item">
                       <span class="time">
-                        <i class="far fa-clock"></i> <span th:text="${#temporals.format(projeto.dataInicio)}"></span>
+                        <i class="far fa-clock"></i> <span th:text="${#temporals.format(projeto.dataIncio)}"></span>
                       </span>
 
                       <h3 class="timeline-header" th:text="${projeto.nome}"></h3>
@@ -96,7 +96,7 @@
                       </div>
                     </div>
                   </div>
-                  -->
+
                   
                 </div>
               </div><!-- /.card-body -->
